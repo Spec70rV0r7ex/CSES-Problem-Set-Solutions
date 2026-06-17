@@ -10,6 +10,8 @@ istream& operator>>(istream& in, vector<T>& v) {
 }
 
 int32_t main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
     int n, ans = 0;
     cin >> n;
     vector<int> v(n, 0);
